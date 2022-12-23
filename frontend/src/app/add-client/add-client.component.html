@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="createprojectlLabel">
+            Add Client
+          </h5>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlInput877" class="form-label"
+              >First Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              name="firstName"
+              id="exampleFormControlInput877"
+              placeholder="Explain what the Project Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput877" class="form-label"
+              >Last Name</label
+            >
+            <input
+              type="text"
+              name="lastName"
+              class="form-control"
+              id="exampleFormControlInput877"
+              placeholder="Explain what the Project Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput977" class="form-label"
+              >Company Name</label
+            >
+            <input
+              type="text"
+              name="companyName"
+              class="form-control"
+              id="exampleFormControlInput977"
+              placeholder="Explain what the Project Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultipleoneone" class="form-label"
+              >Profile Image</label
+            >
+            <input
+              class="form-control"
+              type="file"
+              id="formFileMultipleoneone"
+            />
+          </div>
+          <div class="deadline-form">
+            <form>
+              <div class="row g-3 mb-3">
+                <div class="col">
+                  <label for="exampleFormControlInput177" class="form-label"
+                    >User Name</label
+                  >
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="exampleFormControlInput177"
+                    placeholder="User Name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput277" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="Password"
+                    name="password"
+                    class="form-control"
+                    id="exampleFormControlInput277"
+                    placeholder="Password"
+                  />
+                </div>
+              </div>
+              <div class="row g-3 mb-3">
+                <div class="col">
+                  <label for="exampleFormControlInput477" class="form-label"
+                    >Email ID</label
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    id="exampleFormControlInput477"
+                    placeholder="User Name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput777" class="form-label"
+                    >Phone</label
+                  >
+                  <input
+                    type="text"
+                    name="phoneNumber"
+                    class="form-control"
+                    id="exampleFormControlInput777"
+                    placeholder="User Name"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea78" class="form-label"
+              >Description (optional)</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea78"
+              name="bio"
+              rows="3"
+              placeholder="Add any extra details about the request"
+            ></textarea>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped custom-table">
+              <thead>
+                <tr>
+                  <th>Project Permission</th>
+                  <th class="text-center">Read</th>
+                  <th class="text-center">Write</th>
+                  <th class="text-center">Create</th>
+                  <th class="text-center">Delete</th>
+                  <th class="text-center">Import</th>
+                  <th class="text-center">Export</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="fw-bold">Projects</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault1"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault2"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault3"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault4"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault5"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault6"
+                      checked
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Tasks</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault7"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault8"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault9"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault10"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      name="permission"
+                      id="flexCheckDefault11"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault12"
+                      checked
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Chat</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault13"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault14"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault15"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault16"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault17"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault18"
+                      checked
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Estimates</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault19"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault20"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault21"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault22"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault23"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault24"
+                      checked
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Invoices</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault25"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault26"
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault27"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault28"
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault29"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault30"
+                      checked
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">Timing Sheets</td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault31"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault32"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault33"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault34"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault35"
+                      checked
+                    />
+                  </td>
+                  <td class="text-center">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault36"
+                      checked
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="sunmit" class="btn btn-primary">Create</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
